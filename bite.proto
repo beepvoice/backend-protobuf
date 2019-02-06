@@ -1,0 +1,8 @@
+syntax = "proto3";
+package main;
+
+message Bite {
+  bytes key = 1;
+  uint64 start = 2;
+  bytes data = 3;
+}
