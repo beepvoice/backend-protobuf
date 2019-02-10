@@ -1,8 +1,12 @@
 syntax = "proto3";
 package main;
 
+import "client.proto";
+
 message Bite {
   string key = 1;
   uint64 start = 2;
   bytes data = 3;
+
+  Client client = 4;
 }

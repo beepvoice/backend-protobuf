@@ -1,0 +1,7 @@
+syntax = "proto3";
+package main;
+
+message Client {
+  string key = 1;
+  string client = 2;
+}
