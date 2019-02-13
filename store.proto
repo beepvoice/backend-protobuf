@@ -1,0 +1,9 @@
+syntax = "proto3";
+package main;
+
+import "bite.proto";
+
+message Store {
+  string type = 1;
+  Bite bite = 2;
+}
