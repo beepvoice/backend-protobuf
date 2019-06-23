@@ -1,5 +1,5 @@
 syntax = "proto3";
-package main;
+package protobuf;
 
 message Client {
   string key = 1;

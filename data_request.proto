@@ -1,9 +1,9 @@
 syntax = "proto3";
-package main;
+package protobuf;
 
 message DataRequest {
   string key = 1;
   uint64 start = 2;
-  
+
   string type = 3;
 }
